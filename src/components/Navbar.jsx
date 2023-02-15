@@ -3,9 +3,9 @@ import React from "react"
 
 const Navbar = () => {
   return (
-    <div>
+    <div style={nav}>
       <h1>Bukakelas</h1>
-      <ul>
+      <ul style={myUl}>
         <li>Home</li>
         <li>About</li>
         <li>Contact</li>
@@ -15,3 +15,19 @@ const Navbar = () => {
 }
 
 export default Navbar
+
+const nav = {
+  display: "flex",
+  background: "#EA907A",
+  padding: "0 2rem",
+  justifyContent: "space-between",
+  color: "#fff",
+  alignItems: "center",
+}
+
+const myUl = {
+  listStyle: "none",
+  display: "flex",
+  justifyContent: "space-between",
+  width: "20%",
+}
