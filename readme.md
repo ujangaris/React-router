@@ -33,3 +33,15 @@
         - destructuring assignment
         - menampilkan daftar skill pada halaman web
         - menambahkan styling
+
+## Setup Router di ReactJs
+
+    Todo :
+    1.  install react-router-dom
+        - npm add react-router-dom
+    2.  main.jsx
+        - import dan pasang BrowserRouter dari react-router-dom
+        - panggil file App.jsx
+    3.  App.jsx
+        - import dan pasang Route dari react-router-dom
+        - link : https://v5.reactrouter.com/web/api/Route

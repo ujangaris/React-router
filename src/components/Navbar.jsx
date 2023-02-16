@@ -4,7 +4,7 @@ import React from "react"
 const Navbar = () => {
   return (
     <div style={nav}>
-      <h1>Bukakelas</h1>
+      <h1>BukaKelas.iD</h1>
       <ul style={myUl}>
         <li>Home</li>
         <li>About</li>
