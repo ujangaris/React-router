@@ -45,3 +45,11 @@
     3.  App.jsx
         - import dan pasang Route dari react-router-dom
         - link : https://v5.reactrouter.com/web/api/Route
+
+## Membuat View halaman About
+
+    Todo :
+    1.  About.jsx
+    2.  App.jsx
+        - panggil component About
+        - pasang exact pada Route Home
