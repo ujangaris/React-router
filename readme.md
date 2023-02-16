@@ -53,3 +53,11 @@
     2.  App.jsx
         - panggil component About
         - pasang exact pada Route Home
+
+## Membuat View halaman Contact
+
+    Todo :
+    1.  Contact.jsx
+        - copy dari About.jsx karna sama
+    2.  App.jsx
+        - panggil component Contact
