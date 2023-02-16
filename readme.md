@@ -74,3 +74,12 @@
     2.  pengujian pada browser:
         - klik menu About, Home, contact
           jika setup ynag kita lakukan berhasil maka akan berpindah sesuai pagenya
+
+## Layouting Aplikasi React
+
+    Todo :
+    1.  Navbar.jsx
+        - import dan pasang Link dari react-router-dom
+    2.  pengujian pada browser:
+        - klik menu About, Home, contact
+          jika setup ynag kita lakukan berhasil maka akan berpindah sesuai pagenya

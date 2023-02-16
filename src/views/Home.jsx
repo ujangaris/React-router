@@ -1,11 +1,11 @@
 // rcc
 import React, { Component } from "react"
-import Footer from "../components/Footer"
-import Navbar from "../components/Navbar"
+
 import Javascript from "../assets/images/Javascript.jpg"
 import Bootstrap from "../assets/images/Bootstrap.jpg"
 import ReactImage from "../assets/images/React.png"
 import MongoDb from "../assets/images/MongoDb.png"
+import MainLayout from "../layouts/MainLayout"
 
 class Home extends Component {
   // deklarasi state ,yang isinya array of object
@@ -46,8 +46,7 @@ class Home extends Component {
     // artinya untuk memecah nilai dari array dan objek menjadi beberapa variabel yang lebih mudah diakses.
     const { skills } = this.state
     return (
-      <div>
-        <Navbar />
+      <MainLayout>
         <h1 style={{ paddingLeft: "6rem" }}>Home Page</h1>
         <div style={container}>
           {/* menampilkan daftar skill pada halaman web */}
@@ -58,8 +57,7 @@ class Home extends Component {
             </div>
           ))}
         </div>
-        <Footer />
-      </div>
+      </MainLayout>
     )
   }
 }

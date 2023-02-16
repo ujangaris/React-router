@@ -1,12 +1,10 @@
 // rfe
 import React from "react"
-import Footer from "../components/Footer"
-import Navbar from "../components/Navbar"
+import MainLayout from "../layouts/MainLayout"
 
 const Contact = () => {
   return (
-    <div>
-      <Navbar />
+    <MainLayout>
       <div style={container}>
         <h1>Contact Page</h1>
         <p>
@@ -16,8 +14,7 @@ const Contact = () => {
           URL.
         </p>
       </div>
-      <Footer />
-    </div>
+    </MainLayout>
   )
 }
 
