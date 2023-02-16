@@ -78,8 +78,28 @@
 ## Layouting Aplikasi React
 
     Todo :
-    1.  Navbar.jsx
-        - import dan pasang Link dari react-router-dom
-    2.  pengujian pada browser:
+    1.  MainLayout.jsx
+        - import dan pasang Navabr & Footer
+    2.  Home.jsx
+        - import dan pasang MainLayout
+    3.  About.jsx
+        - import dan pasang MainLayout
+    4.  Contact.jsx
+        - import dan pasang MainLayout
+    5.  pengujian pada browser:
+        - klik menu About, Home, contact
+          jika setup ynag kita lakukan berhasil maka akan berpindah sesuai pagenya
+
+## Refactor Route
+
+    Todo :
+    1.  Router.jsx
+        - import Route dari react-router-dom
+        - cut Route path dari App.jsx
+        - import dan pasang Navabr ,Footer & Home
+    2.  App.jsx
+        - cut Route path dan pidahkan ke Router.jsx
+        - import dan pasang Router
+    3.  pengujian pada browser:
         - klik menu About, Home, contact
           jika setup ynag kita lakukan berhasil maka akan berpindah sesuai pagenya
