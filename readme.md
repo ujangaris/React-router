@@ -117,3 +117,21 @@
     4.  pengujian pada browser:
         - klik salah satu image/ judl pada conten
           jika berhasil akan diarahkan kehalaman detail dengan id yang terpilih
+
+## Membuat Dynamic Route & remake styling css
+
+    Todo :
+    1.  Detail.jsx
+        - copy dan paste state yang berisi skills ke Detail
+        - pasang componentDidMount
+        - tampilkan data berdasarkan id
+        - styling halaman detail
+    2.  Home.jsx
+    3.  Footer.jsx
+    4.  About.jsx
+    5.  Contact.jsx
+    6.  pengujian pada browser:
+        - klik salah satu image/ judl pada conten
+          jika berhasil akan diarahkan kehalaman detail dengan id yang terpilih
+        - lakukan semua pengujian diatas.
+          jika berhasil akan diarahkan kehalaman yang dipilih, maka setup yang kita lakukan berhasil

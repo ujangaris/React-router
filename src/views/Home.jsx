@@ -53,7 +53,7 @@ class Home extends Component {
           {/* menampilkan daftar skill pada halaman web */}
           {skills.map((item) => (
             <div key={item.id} style={card}>
-              <Link to={`/detail/${item.id}`}>
+              <Link style={link} to={`/detail/${item.id}`}>
                 <img src={item.image} alt={item.name} style={img} />
                 <h3>{item.name}</h3>
               </Link>
@@ -69,7 +69,7 @@ export default Home
 
 const container = {
   display: "flex",
-  padding: "0 6rem",
+  padding: "0 6rem 10rem",
   justifyContent: "space-between",
 }
 
@@ -81,4 +81,8 @@ const card = {
 const img = {
   width: "100%",
   height: "100%",
+}
+const link = {
+  textDecoration: "none",
+  color: "#4A3933",
 }

@@ -1,5 +1,6 @@
 // rfe
 import React from "react"
+import { Link } from "react-router-dom"
 import MainLayout from "../layouts/MainLayout"
 
 const About = () => {
@@ -13,6 +14,9 @@ const About = () => {
           responsibility is to render some UI when its path matches the current
           URL.
         </p>
+        <Link style={link} to="/">
+          Back Home
+        </Link>
       </div>
     </MainLayout>
   )
@@ -21,5 +25,10 @@ const About = () => {
 export default About
 
 const container = {
-  padding: "0 6rem",
+  padding: "0 6rem 22rem",
+}
+
+const link = {
+  textDecoration: "none",
+  color: "#4A3933",
 }
