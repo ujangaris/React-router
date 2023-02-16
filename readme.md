@@ -53,6 +53,8 @@
     2.  App.jsx
         - panggil component About
         - pasang exact pada Route Home
+    3.  pengujian pada browser:
+        http://localhost:5173/about
 
 ## Membuat View halaman Contact
 
@@ -61,3 +63,14 @@
         - copy dari About.jsx karna sama
     2.  App.jsx
         - panggil component Contact
+    3.  pengujian pada browser:
+        http://localhost:5173/contact
+
+## Menambahkan Link Navigasi
+
+    Todo :
+    1.  Navbar.jsx
+        - import dan pasang Link dari react-router-dom
+    2.  pengujian pada browser:
+        - klik menu About, Home, contact
+          jika setup ynag kita lakukan berhasil maka akan berpindah sesuai pagenya

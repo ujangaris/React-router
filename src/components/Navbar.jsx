@@ -1,14 +1,31 @@
 // rfe
 import React from "react"
+import { Link } from "react-router-dom"
 
 const Navbar = () => {
   return (
     <div style={nav}>
-      <h1>BukaKelas.iD</h1>
+      <h1>
+        <Link to="/" style={link}>
+          BukaKelas.iD
+        </Link>
+      </h1>
       <ul style={myUl}>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li>
+          <Link to="/" style={link}>
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to="/about" style={link}>
+            About
+          </Link>
+        </li>
+        <li>
+          <Link to="/contact" style={link}>
+            Contact
+          </Link>
+        </li>
       </ul>
     </div>
   )
@@ -30,4 +47,9 @@ const myUl = {
   display: "flex",
   justifyContent: "space-between",
   width: "20%",
+}
+
+const link = {
+  textDecoration: "none",
+  color: "#fff",
 }
