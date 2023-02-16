@@ -22,3 +22,14 @@
         - menambahkan styling
     3.  Index.css
         - menambahkan styling untuk body margin : 0
+
+## Styling Component Home & State Object
+
+    Todo :
+    1.  Navbar.jsx
+        - merapihkan navbar
+    2.  Home.jsx
+        - deklarasi state ,yang isinya array of object
+        - destructuring assignment
+        - menampilkan daftar skill pada halaman web
+        - menambahkan styling

@@ -19,7 +19,7 @@ export default Navbar
 const nav = {
   display: "flex",
   background: "#EA907A",
-  padding: "0 2rem",
+  padding: "0 6rem",
   justifyContent: "space-between",
   color: "#fff",
   alignItems: "center",
