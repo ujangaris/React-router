@@ -103,3 +103,17 @@
     3.  pengujian pada browser:
         - klik menu About, Home, contact
           jika setup ynag kita lakukan berhasil maka akan berpindah sesuai pagenya
+
+## Membuat Halaman Detail
+
+    Todo :
+    1.  Detail.jsx
+        - import dan pasang MainLayout
+    2.  Router.jsx
+        - import dan pasang Detail pada Route path
+    3.  Home.jsx
+        - import dan pasang Link dari react-router-dom
+        - Bungkus image dan heading kedalam Link
+    4.  pengujian pada browser:
+        - klik salah satu image/ judl pada conten
+          jika berhasil akan diarahkan kehalaman detail dengan id yang terpilih
